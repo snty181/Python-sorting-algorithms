@@ -1,16 +1,16 @@
-# Ordenacion burbuja
+# Bubble sorting
 
 numeros = []
 
-# Pedimos al usuario 5 numeros para ordenar
+# We ask the user to introduce 5 numbers to order
 while len(numeros) != 5:
-    print('Introduzca ', 5 - len(numeros), ' numeros: ')
+    print('Introduce ', 5 - len(numeros), ' numbers: ')
 
     numero = input()
 
     while not numero.isdigit():
-        print('No ha introducido un número')
-        print('Introduzca ', 5 - len(numeros), ' numeros: ')
+        print('No numbers had been introduced')
+        print('Introduce ', 5 - len(numeros), ' numbers: ')
 
     numero = int(numero)
     numeros.append(numero)
