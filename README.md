@@ -1,2 +1,2 @@
 # Testing
-Some Python files
+Python files with some sorting algorithms (bubble for example)
