@@ -16,16 +16,16 @@ while len(numeros) != 5:
     numeros.append(numero)
 
 # Aqui comienza la ordenación
-puntero = 1
+punt = 1
 
-while puntero < len(numeros):
+while punt < len(numeros):
 
-    while numeros[puntero - 1] > numeros[puntero] and puntero > 0:
+    while numeros[puntero - 1] > numeros[punt] and punt > 0:
 
-        numeros[puntero-1], numeros[puntero] = numeros[puntero], numeros[puntero-1]
+        numeros[punt-1], numeros[punt] = numeros[punt], numeros[punt-1]
 
-        puntero -= 1
+        punt -= 1
 
-    puntero += 1
+    punt += 1
 
 print(numeros)
